@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+}
+.bigBox{
+	width:100%;
+	height:100%;
+}
+.bigBox .helpfileleft{
+	 width: 15%;
+    height: 100%;
+    float: left;
+    background: #024177;
+}
+.bigBox .helpfileright{
+    width:85%;
+	height:100%;
+	background-color: #F5F5F5;;
+	float:left;
+	
+}
+.helpfileleft .helpfilelist{
+	width:100%;
+	height:50%;
+}
+.helpfileleft .helpfilelist li{
+	width:100%;
+    background: #1768b7;
+    color: #20a7f8;
+    text-align: center;
+    padding: 12px 0;
+}
+/* .helpfileleft .helpfilelist li:hover{
+	width:100%;
+	height:10%;
+	
+	color:#fff;
+} */
+.helpfileright .helpfile_title{
+   width: 100%;
+    height: 8%;
+    background: #61bcff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    text-indent: 25px;
+    line-height: 50px;
+}
+.helpfileright .helpfiletab1{
+	width: 98%;
+    height: 92%;
+    margin-left: 1.7%;
+    overflow-y: scroll;
+}
+.helpfileright .helpfiletab2{
+	width:100%;
+	height:88%;
+	display:none;
+	overflow-y: scroll;
+}
+.helpfileright .helpfiletab1 h3{
+	padding:10px 8px;
+}
+.helpfileright .helpfiletab2 h3{
+	padding:10px 8px;
+}
+.helpfileright .helpfiletab2 h4{
+	padding:10px 10px;
+}
+.helpfileright .helpfiletab2 p{
+	text-indent:35px;
+	line-height: 1.8;
+}
+.helpfiletab1 .helpfilemodel{
+	width:100%;
+	height:auto;
+}
+.helpfiletab1 .helpfilemodel a{
+    padding: 10px 0;
+    width: 47%;
+    display: inline-block;
+    text-decoration-line: none;
+    color: #1102f7;
+}
+.helpfileleft .helptitle{
+	width:100%;
+	height:8%;
+	background:url(../../plug-in/hplus/images/helpfile.png) no-repeat;
+    background-size: 98% 100%;
+    background-position: 40%;
+}
+
+.helpfileleft .helpfilelist .ys{
+	background:#129aeb;
+	color:#fff;
+}
+.helpfiletab1 .fanhuidingbu{
+    position: absolute;
+    bottom: 18px;
+    right: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background: #61bcff;
+    padding: 3px;
+    color: #fff;
+    border-radius: 3px;
+}
